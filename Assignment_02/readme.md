@@ -143,7 +143,7 @@ c)  Dynamic staff availability or resource breakdowns.
 d)  Non-exponential service distributions.
 
 
-** Code Environment ** 
+**Code Environment** 
 1. The code is in python. Originally it was done using Jypiter Notebook for experimental purpose, but this final code can be run direcly in python environment.
 2. The primary library used for Event-Based Simulation model is simulus. By default it may not be installed in Python Environment. If needed, install it by below command.
 ````
