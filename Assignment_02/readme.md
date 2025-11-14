@@ -115,9 +115,7 @@ scanning).
 
 **5. Flowchart Overview**
 
-![A diagram of a flowchart AI-generated content may be
-incorrect.](media/Event_Base_Flow_Chart.png){width="4.885416666666667in"
-height="9.0in"}
+(media/Event_Base_Flow_Chart.png)
 
 **6. Data Collection and Outputs**
 
@@ -143,3 +141,17 @@ b)  Priority handling (e.g., emergency vs. elective).
 c)  Dynamic staff availability or resource breakdowns.
 
 d)  Non-exponential service distributions.
+
+
+** Code Environment ** 
+1. The code is in python. Originally it was done using Jypiter Notebook for experimental purpose, but this final code can be run direcly in python environment.
+2. The primary library used for Event-Based Simulation model is simulus. By default it may not be installed in Python Environment. If needed, install it by below command.
+````
+	"!pip install simulus" command. 
+````
+If still there is any issue on installing it in the environment, you need to check the current python environment and then install to that environment properly.
+My environment details as follows:
+````
+	C:\Python\Python3.9.7\python.exe
+	3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)]
+````
