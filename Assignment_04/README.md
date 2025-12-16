@@ -6,6 +6,10 @@
 **Institution:** University of Jyväskylä
 
 ---
+## An alternative solution using Event-Based model Implementation is available in following directory
+``event_base``
+
+---
 
 ## Overview
 
