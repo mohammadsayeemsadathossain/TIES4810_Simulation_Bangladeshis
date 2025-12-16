@@ -80,16 +80,17 @@ Columns include:
 **Table 1** summarizes the dataset.
 
 > **Table 1 — Summary statistics of main outputs**
-|	    | avg_queue	| avg_block |
+
+|	      | avg_queue	| avg_block |
 |-------|-----------|-----------|
 | count	|64.000000	|64.000000  |
-| mean	|1.109516	|0.009542   |
-| std	|0.904116	|0.007911   |
-| min	|0.041828	|0.000168   |
-| 25%	|0.327171	|0.002599   |
-| 50%	|0.933896	|0.006370   |
-| 75%	|1.739680	|0.016041   |
-| max	|3.123512	|0.026620   |
+| mean	|1.109516	  |0.009542   |
+| std	  |0.904116	  |0.007911   |
+| min	  |0.041828	  |0.000168   |
+| 25%	  |0.327171	  |0.002599   |
+| 50%	  |0.933896	  |0.006370   |
+| 75%	  |1.739680	  |0.016041   |
+| max	  |3.123512	  |0.026620   |
 
 
 
@@ -104,15 +105,14 @@ The dataset was validated before analysis:
 - No missing values
 - Exactly **64 rows** confirmed
 
-![Distribution of average entrance queue length](https://github.com/mohammadsayeemsadathossain/TIES4810_Simulation_Bangladeshis/tree/main/Assignment_04/event_base/images/Figure_1_-_Distribution_of_Average_Queue.png)
+![Distribution of average entrance queue length](https://github.com/mohammadsayeemsadathossain/TIES4810_Simulation_Bangladeshis/blob/main/Assignment_04/event_base/images/Figure_1_-_Distribution_of_Average_Queue.png)
 > **Figure 1 — Distribution of average entrance queue length**  
 <br>
-![Distribution of OR blocking probability](https://github.com/mohammadsayeemsadathossain/TIES4810_Simulation_Bangladeshis/tree/main/Assignment_04/event_base/images/Figure_2_-_Distribution_of_OR_blocking_probability.png)
 
+![Distribution of OR blocking probability](https://github.com/mohammadsayeemsadathossain/TIES4810_Simulation_Bangladeshis/blob/main/Assignment_04/event_base/images/Figure_2_-_Distribution_of_OR_blocking_probability.png)
 > **Figure 2 — Distribution of OR blocking probability**
-
-
 ---
+
 
 ## STEP 3 — Serial Correlation Analysis
 
@@ -134,13 +134,12 @@ For a fixed configuration:
 - **Mean lag-1 autocorrelation ≈ 0.87**
 - Individual runs ranged from **0.70 to 0.96**
 
-![Figure 3 — Lag-1 autocorrelation across independent runs](https://github.com/mohammadsayeemsadathossain/TIES4810_Simulation_Bangladeshis/tree/main/Assignment_04/event_base/images/Figure_3_-_Lag-1_autocorrelation_across_independent_runs.png)
+![Figure 3 — Lag-1 autocorrelation across independent runs](https://github.com/mohammadsayeemsadathossain/TIES4810_Simulation_Bangladeshis/blob/main/Assignment_04/event_base/images/Figure_3_-_Lag-1_autocorrelation_across_independent_runs.png)
 > **Figure 3 — Lag-1 autocorrelation across independent runs**  
 <br>
-![Figure 4 — Example queue length time series](https://github.com/mohammadsayeemsadathossain/TIES4810_Simulation_Bangladeshis/tree/main/Assignment_04/event_base/images/Figure_4_-_Example_queue_length_time_series.png)
 
-> **Figure 4 — Example queue length time series**
-
+![Figure 4 — Example queue length time series](https://github.com/mohammadsayeemsadathossain/TIES4810_Simulation_Bangladeshis/blob/main/Assignment_04/event_base/images/Figure_4_-_Example_queue_length_time_series.png)
+> **Figure 4 — Example queue length time series**  
 ---
 
 ### 3.4 Interpretation
