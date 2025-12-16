@@ -7,7 +7,7 @@
 
 ---
 ## An alternative solution using Event-Based model Implementation is available in following directory
-``event_base``
+[event_base](https://github.com/mohammadsayeemsadathossain/TIES4810_Simulation_Bangladeshis/tree/main/Assignment_04/event_base)
 
 ---
 
